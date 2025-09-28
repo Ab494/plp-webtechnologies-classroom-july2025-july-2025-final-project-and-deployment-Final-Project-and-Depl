@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>EventHub - Local Event Booking</title>
     <link rel="stylesheet" href="css/styles.css">
- 
 </head>
 <body>
     <!-- Navigation -->
@@ -198,14 +197,14 @@
                                 <div class="contact-icon">📞</div>
                                 <div>
                                     <strong>Phone</strong><br>
-                                    +254 741220644
+                                    +254 741 220 644
                                 </div>
                             </div>
                             <div class="contact-item">
                                 <div class="contact-icon">📍</div>
                                 <div>
                                     <strong>Address</strong><br>
-                                    123 Kipkaren Street<br>
+                                    123 Kipkaren Center<br>
                                     Eldoret, Kenya
                                 </div>
                             </div>
@@ -259,6 +258,197 @@
                 </div>
             </section>
         </div>
+
+        <!-- Help Center Page -->
+        <div id="help" class="page">
+            <section class="hero">
+                <div class="container">
+                    <h1>Help Center</h1>
+                    <p>Find answers to frequently asked questions and get the help you need</p>
+                </div>
+            </section>
+
+            <section class="container" style="padding: 2rem 0;">
+                <div class="help-content">
+                    <h2 style="color: var(--dark-color); margin-bottom: 2rem;">Frequently Asked Questions</h2>
+                    
+                    <div class="faq-section">
+                        <div class="faq-item">
+                            <h3 class="faq-question" onclick="toggleFAQ(this)">
+                                How do I book tickets for an event? <span class="faq-toggle">+</span>
+                            </h3>
+                            <div class="faq-answer">
+                                <p>Booking tickets is easy! Simply browse our events page, click on the event you're interested in, then click "Book Now". Fill out the booking form with your details and select the number of tickets you need. You'll receive a confirmation email once your booking is complete.</p>
+                            </div>
+                        </div>
+
+                        <div class="faq-item">
+                            <h3 class="faq-question" onclick="toggleFAQ(this)">
+                                Can I cancel or refund my ticket? <span class="faq-toggle">+</span>
+                            </h3>
+                            <div class="faq-answer">
+                                <p>Yes, you can cancel your tickets up to 48 hours before the event for a full refund. Cancellations made within 48 hours of the event may be subject to a processing fee. To cancel, please contact our support team with your booking reference number.</p>
+                            </div>
+                        </div>
+
+                        <div class="faq-item">
+                            <h3 class="faq-question" onclick="toggleFAQ(this)">
+                                How will I receive my tickets? <span class="faq-toggle">+</span>
+                            </h3>
+                            <div class="faq-answer">
+                                <p>After completing your booking, you'll receive an email confirmation with your digital tickets attached as a PDF. You can either print your tickets or show them on your mobile device at the event entrance.</p>
+                            </div>
+                        </div>
+
+                        <div class="faq-item">
+                            <h3 class="faq-question" onclick="toggleFAQ(this)">
+                                What payment methods do you accept? <span class="faq-toggle">+</span>
+                            </h3>
+                            <div class="faq-answer">
+                                <p>We accept all major credit cards (Visa, MasterCard, American Express), PayPal, and mobile money services (M-Pesa, Airtel Money). All payments are processed securely through our encrypted payment gateway.</p>
+                            </div>
+                        </div>
+
+                        <div class="faq-item">
+                            <h3 class="faq-question" onclick="toggleFAQ(this)">
+                                What if an event is cancelled? <span class="faq-toggle">+</span>
+                            </h3>
+                            <div class="faq-answer">
+                                <p>In the rare event of cancellation, you will receive a full refund automatically within 5-7 business days. We'll also notify you immediately via email and SMS if you've provided your phone number.</p>
+                            </div>
+                        </div>
+
+                        <div class="faq-item">
+                            <h3 class="faq-question" onclick="toggleFAQ(this)">
+                                Can I transfer my tickets to someone else? <span class="faq-toggle">+</span>
+                            </h3>
+                            <div class="faq-answer">
+                                <p>Yes, tickets can be transferred to another person up to 24 hours before the event. Please contact our support team with the new attendee's details, and we'll update the booking accordingly.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div style="margin-top: 3rem; padding: 2rem; background: white; border-radius: 1rem; box-shadow: 0 4px 20px rgba(0,0,0,0.1);">
+                        <h3 style="color: var(--primary-color); margin-bottom: 1rem;">Still Need Help?</h3>
+                        <p>Can't find the answer you're looking for? Our customer support team is here to help!</p>
+                        <div style="margin-top: 1rem;">
+                            <a href="#" onclick="showPage('contact')" class="btn btn-primary">Contact Support</a>
+                            <span style="margin: 0 1rem;">or</span>
+                            <span>Email us at <strong>support@eventhub.com</strong></span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- Terms of Service Page -->
+        <div id="terms" class="page">
+            <section class="hero">
+                <div class="container">
+                    <h1>Terms of Service</h1>
+                    <p>Our terms and conditions for using EventHub services</p>
+                </div>
+            </section>
+
+            <section class="container" style="padding: 2rem 0;">
+                <div style="background: white; padding: 2rem; border-radius: 1rem; box-shadow: 0 4px 20px rgba(0,0,0,0.1); line-height: 1.8;">
+                    <p style="color: var(--text-color); margin-bottom: 2rem;"><strong>Last Updated:</strong> September 2024</p>
+
+                    <h2 style="color: var(--dark-color); margin: 2rem 0 1rem 0;">1. Acceptance of Terms</h2>
+                    <p>By accessing and using EventHub, you accept and agree to be bound by the terms and provision of this agreement. If you do not agree to abide by the above, please do not use this service.</p>
+
+                    <h2 style="color: var(--dark-color); margin: 2rem 0 1rem 0;">2. Booking and Payment</h2>
+                    <p>All bookings made through EventHub are subject to availability and confirmation. Payment must be made in full at the time of booking. Prices are subject to change without notice, but confirmed bookings will honor the price at the time of purchase.</p>
+
+                    <h2 style="color: var(--dark-color); margin: 2rem 0 1rem 0;">3. Cancellation Policy</h2>
+                    <p>Event organizers reserve the right to cancel events due to circumstances beyond their control. In such cases, full refunds will be provided. Customer-initiated cancellations must be made at least 48 hours before the event for a full refund.</p>
+
+                    <h2 style="color: var(--dark-color); margin: 2rem 0 1rem 0;">4. User Responsibilities</h2>
+                    <p>Users are responsible for providing accurate information during booking and for the behavior of all attendees under their booking. EventHub reserves the right to refuse service to anyone who violates these terms or engages in disruptive behavior.</p>
+
+                    <h2 style="color: var(--dark-color); margin: 2rem 0 1rem 0;">5. Liability Limitations</h2>
+                    <p>EventHub acts as an intermediary between event organizers and attendees. While we strive to ensure accuracy, we cannot guarantee the quality or outcome of events. Our liability is limited to the ticket price paid.</p>
+
+                    <h2 style="color: var(--dark-color); margin: 2rem 0 1rem 0;">6. Intellectual Property</h2>
+                    <p>All content on EventHub, including text, graphics, logos, and software, is the property of EventHub or its licensors and is protected by copyright and other intellectual property laws.</p>
+
+                    <h2 style="color: var(--dark-color); margin: 2rem 0 1rem 0;">7. Privacy and Data</h2>
+                    <p>Your privacy is important to us. Please review our Privacy Policy to understand how we collect, use, and protect your personal information.</p>
+
+                    <h2 style="color: var(--dark-color); margin: 2rem 0 1rem 0;">8. Changes to Terms</h2>
+                    <p>EventHub reserves the right to modify these terms at any time. Users will be notified of significant changes, and continued use of the service constitutes acceptance of the modified terms.</p>
+
+                    <h2 style="color: var(--dark-color); margin: 2rem 0 1rem 0;">9. Contact Information</h2>
+                    <p>If you have any questions about these Terms of Service, please contact us at <strong>legal@eventhub.com</strong> or through our contact page.</p>
+                </div>
+            </section>
+        </div>
+
+        <!-- Privacy Policy Page -->
+        <div id="privacy" class="page">
+            <section class="hero">
+                <div class="container">
+                    <h1>Privacy Policy</h1>
+                    <p>How we collect, use, and protect your personal information</p>
+                </div>
+            </section>
+
+            <section class="container" style="padding: 2rem 0;">
+                <div style="background: white; padding: 2rem; border-radius: 1rem; box-shadow: 0 4px 20px rgba(0,0,0,0.1); line-height: 1.8;">
+                    <p style="color: var(--text-color); margin-bottom: 2rem;"><strong>Last Updated:</strong> September 2024</p>
+
+                    <h2 style="color: var(--dark-color); margin: 2rem 0 1rem 0;">1. Information We Collect</h2>
+                    <p>We collect information you provide directly to us, such as when you create an account, make a booking, or contact us. This includes your name, email address, phone number, and payment information.</p>
+
+                    <h2 style="color: var(--dark-color); margin: 2rem 0 1rem 0;">2. How We Use Your Information</h2>
+                    <p>We use the information we collect to:</p>
+                    <ul style="margin-left: 2rem; color: var(--text-color);">
+                        <li>Process your bookings and payments</li>
+                        <li>Send you booking confirmations and event updates</li>
+                        <li>Provide customer support</li>
+                        <li>Improve our services and user experience</li>
+                        <li>Send promotional emails (with your consent)</li>
+                    </ul>
+
+                    <h2 style="color: var(--dark-color); margin: 2rem 0 1rem 0;">3. Information Sharing</h2>
+                    <p>We do not sell, trade, or otherwise transfer your personal information to third parties except:</p>
+                    <ul style="margin-left: 2rem; color: var(--text-color);">
+                        <li>To event organizers (limited to necessary booking details)</li>
+                        <li>To payment processors for transaction processing</li>
+                        <li>When required by law or to protect our rights</li>
+                        <li>To trusted service providers under strict confidentiality agreements</li>
+                    </ul>
+
+                    <h2 style="color: var(--dark-color); margin: 2rem 0 1rem 0;">4. Data Security</h2>
+                    <p>We implement appropriate security measures to protect your personal information against unauthorized access, alteration, disclosure, or destruction. This includes SSL encryption for all data transmission and secure servers for data storage.</p>
+
+                    <h2 style="color: var(--dark-color); margin: 2rem 0 1rem 0;">5. Cookies and Tracking</h2>
+                    <p>We use cookies and similar technologies to enhance your browsing experience, analyze site traffic, and personalize content. You can control cookie settings through your browser preferences.</p>
+
+                    <h2 style="color: var(--dark-color); margin: 2rem 0 1rem 0;">6. Your Rights</h2>
+                    <p>You have the right to:</p>
+                    <ul style="margin-left: 2rem; color: var(--text-color);">
+                        <li>Access and update your personal information</li>
+                        <li>Request deletion of your data</li>
+                        <li>Opt-out of marketing communications</li>
+                        <li>Request a copy of your data</li>
+                        <li>Object to processing of your data</li>
+                    </ul>
+
+                    <h2 style="color: var(--dark-color); margin: 2rem 0 1rem 0;">7. Data Retention</h2>
+                    <p>We retain your personal information only for as long as necessary to fulfill the purposes outlined in this privacy policy, comply with legal obligations, and resolve disputes.</p>
+
+                    <h2 style="color: var(--dark-color); margin: 2rem 0 1rem 0;">8. Children's Privacy</h2>
+                    <p>Our services are not intended for children under 13 years of age. We do not knowingly collect personal information from children under 13. If we become aware that we have collected such information, we will delete it immediately.</p>
+
+                    <h2 style="color: var(--dark-color); margin: 2rem 0 1rem 0;">9. Updates to This Policy</h2>
+                    <p>We may update this privacy policy from time to time. We will notify you of any changes by posting the new policy on this page and updating the "Last Updated" date.</p>
+
+                    <h2 style="color: var(--dark-color); margin: 2rem 0 1rem 0;">10. Contact Us</h2>
+                    <p>If you have any questions about this Privacy Policy or our data practices, please contact us at <strong>privacy@eventhub.com</strong> or through our contact page.</p>
+                </div>
+            </section>
+        </div>
     </main>
 
     <!-- Event Details Modal -->
@@ -289,9 +479,9 @@
                 <div class="footer-section">
                     <h3>Support</h3>
                     <p><a href="#" onclick="showPage('contact')">Contact Us</a></p>
-                    <p><a href="#">Help Center</a></p>
-                    <p><a href="#">Terms of Service</a></p>
-                    <p><a href="#">Privacy Policy</a></p>
+                    <p><a href="#" onclick="showPage('help')">Help Center</a></p>
+                    <p><a href="#" onclick="showPage('terms')">Terms of Service</a></p>
+                    <p><a href="#" onclick="showPage('privacy')">Privacy Policy</a></p>
                 </div>
                 <div class="footer-section">
                     <h3>Follow Us</h3>

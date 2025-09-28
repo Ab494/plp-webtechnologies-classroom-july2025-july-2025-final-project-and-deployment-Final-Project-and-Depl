@@ -1,11 +1,10 @@
-
-        // Sample event data
+       // Sample event data
         const events = [
             {
                 id: 1,
                 title: "Jazz Night Under the Stars",
                 date: "2024-10-15",
-                dateFormatted: "October 15, 2024",
+                dateFormatted: "October 15, 2025",
                 time: "7:00 PM",
                 category: "music",
                 price: "$25",
@@ -20,7 +19,7 @@
                 id: 2,
                 title: "Tech Innovation Conference",
                 date: "2024-10-22",
-                dateFormatted: "October 22, 2024",
+                dateFormatted: "October 22, 2025",
                 time: "9:00 AM",
                 category: "conference",
                 price: "$75",
@@ -35,7 +34,7 @@
                 id: 3,
                 title: "Community Art Workshop",
                 date: "2024-10-18",
-                dateFormatted: "October 18, 2024",
+                dateFormatted: "October 18, 2025",
                 time: "2:00 PM",
                 category: "workshop",
                 price: "$30",
@@ -50,7 +49,7 @@
                 id: 4,
                 title: "Football Championship Finals",
                 date: "2024-10-25",
-                dateFormatted: "October 25, 2024",
+                dateFormatted: "October 25, 2025",
                 time: "3:00 PM",
                 category: "sports",
                 price: "$20",
@@ -65,7 +64,7 @@
                 id: 5,
                 title: "Classical Music Evening",
                 date: "2024-11-02",
-                dateFormatted: "November 2, 2024",
+                dateFormatted: "November 2, 2025",
                 time: "7:30 PM",
                 category: "music",
                 price: "$40",
@@ -95,7 +94,7 @@
                 id: 7,
                 title: "Photography Masterclass",
                 date: "2024-11-12",
-                dateFormatted: "November 12, 2024",
+                dateFormatted: "November 12, 2025",
                 time: "11:00 AM",
                 category: "workshop",
                 price: "$60",
@@ -110,7 +109,7 @@
                 id: 8,
                 title: "Basketball Tournament",
                 date: "2024-11-15",
-                dateFormatted: "November 15, 2024",
+                dateFormatted: "November 15, 2025",
                 time: "6:00 PM",
                 category: "sports",
                 price: "$15",
@@ -546,6 +545,30 @@
                 }, 600);
             });
         });
+
+        // FAQ toggle functionality
+        function toggleFAQ(element) {
+            const faqItem = element.parentElement;
+            const faqAnswer = faqItem.querySelector('.faq-answer');
+            const isActive = faqItem.classList.contains('active');
+
+            // Close all other FAQ items
+            document.querySelectorAll('.faq-item').forEach(item => {
+                if (item !== faqItem) {
+                    item.classList.remove('active');
+                    item.querySelector('.faq-answer').classList.remove('active');
+                }
+            });
+
+            // Toggle current item
+            if (isActive) {
+                faqItem.classList.remove('active');
+                faqAnswer.classList.remove('active');
+            } else {
+                faqItem.classList.add('active');
+                faqAnswer.classList.add('active');
+            }
+        }
 
         // Add CSS for ripple effect
         const style = document.createElement('style');
