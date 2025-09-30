@@ -12,7 +12,7 @@
                 location: "Central Park Amphitheater",
                 capacity: 200,
                 organizer: "Nairobi Jazz Society",
-                image: "🎷",
+                image: "images/tech.jpeg",
                 featured: true
             },
             {
@@ -121,6 +121,24 @@
                 featured: false
             }
         ];
+
+        const container = document.getElementById('events-container');
+
+        events.forEach(event => {
+        const eventHTML = `
+          <div class="event">
+           <h2>event.title</h2>
+           <p><strong>Date:</strong>{event.dateFormatted}</p>
+           <p><strong>Time:</strong> event.time</p>
+           <p><strong>Location:</strong>{event.location}</p>
+           <p><strong>Description:</strong> event.description</p>
+           <img src="{event.image}" alt="${event.title}" width="300">
+           <hr>
+        </div>
+       `;
+       container.innerHTML += eventHTML;
+      });
+
 
         // Current active filter
         let currentFilter = 'all';

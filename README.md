@@ -1,3 +1,28 @@
+# 🎉 EventHub - Local Event Booking
+
+EventHub is a multi-page website that helps users discover, book, and enjoy local events in their city.  
+It was built as the **final assignment** for the multipage website project.  
+
+## 🔗 Live Demo
+[View the deployed site](https://your-deployed-site-link.com)
+
+## 📂 Project Structure
+- `index.html` – Main entry point  
+- `css/` – Stylesheets  
+- `js/` – JavaScript for interactivity  
+- `images/` – Event and UI images  
+
+## ✨ Features
+- Multi-page navigation (Home, Events, Booking, About, Contact)  
+- Mobile-responsive design with hamburger menu  
+- Interactive booking form with validation  
+- Embedded Google Map for event location  
+- Footer with Support & Social links  
+
+---
+
+
+
 # 📦 Final Assignment: Build, Organize, and Deploy a Multipage Website
 
 You're now ready to bring everything together—HTML, CSS, JavaScript, planning, structure, and deployment. This final project challenges you to **conceptualize, build, and deploy a multi-page website** that is responsive, interactive, and ready for the real world.
