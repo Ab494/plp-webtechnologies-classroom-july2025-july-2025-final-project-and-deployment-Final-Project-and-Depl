@@ -4,7 +4,7 @@ EventHub is a multi-page website that helps users discover, book, and enjoy loca
 It was built as the **final assignment** for the multipage website project.  
 
 ## 🔗 Live Demo
-[View the deployed site](https://your-deployed-site-link.com)
+[View the deployed site](https://plpdeployment.netlify.app)
 
 ## 📂 Project Structure
 - `index.html` – Main entry point  
